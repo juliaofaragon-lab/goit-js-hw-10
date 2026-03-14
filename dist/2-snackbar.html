@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snackbar</title>
+    <script type="module" crossorigin src="/goit-js-hw-10/2-snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-De3oVf-W.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-BI-H-CSx.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
+  </head>
+  <body>
+    <main class="task-page">
+      <div class="task-shell task-shell-compact">
+        <a class="back-link" href="./index.html">Go back</a>
+
+        <form class="form form-compact">
+          <label class="form-control">
+            Delay (ms)
+            <input type="number" name="delay" required />
+          </label>
+
+          <fieldset class="form-fieldset">
+            <legend>State</legend>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="state" value="fulfilled" required />
+                Fulfilled
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="state" value="rejected" required />
+                Rejected
+              </label>
+            </div>
+          </fieldset>
+
+          <button type="submit">Create notification</button>
+        </form>
+      </div>
+    </main>
+
+  </body>
+</html>
